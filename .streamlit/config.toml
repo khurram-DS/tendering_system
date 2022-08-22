@@ -1,0 +1,27 @@
+[theme]
+primaryColor="#DEA22D"
+backgroundColor="#E2EFDF"
+secondaryBackgroundColor="#97E6D2"
+textColor="#0e0e0e"
+font = "sans serif"
+
+[global]
+dataFrameSerialization = "legacy"
+
+
+
+
+[client]
+caching = true
+showErrorDetails = true
+
+[server]
+fileWatcherType = "auto"
+enableXsrfProtection = true
+runOnSave = true
+maxUploadSize = 200
+maxMessageSize = 200
+
+
+
+
